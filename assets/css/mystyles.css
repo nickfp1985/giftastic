@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    margin:10px;
+    padding:20px;
+    text-align:center;
+}
+
+input + button {
+    margin-left:20px;
+}
+
+input,
+button {
+    padding:5px;
+    background-color: black;
+    color: white;
+}
+
+.hero{
+    font-family: 'Spirax', cursive;
+    text-align:center;
+    padding:30px;
+    font-size:60px;
+    background-color: black;
+    color: hotpink;
+    margin:0px;
+}
+
+.showButtons {
+    margin:0;
+    padding:10px;
+    background-color: lightpink;
+}
+
+#addButton {
+    text-align: center;
+}
+
+.userButton {
+    margin: 10px;
+}
+
+.gifButtons {
+    margin:0;
+    padding:10px;
+    background-color: lightblue;
+}
+
+.userButton {
+    margin:10px;
+}
+
+#showGifs {
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.presentGifs {
+    margin: 0;
+    color: hotpink;
+}
+
+.gifFile {
+    height:200px;
+    max-width:300px;
+    margin:10px;
+}
