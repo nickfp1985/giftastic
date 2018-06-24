@@ -90,8 +90,3 @@ $(document).ready(function () {
     })
 
 });
-
-// .border = .showButtons
-// #gifsButtons = #gifButtons
-// .addOn = .addNew
-// #gifsDisplay = #showGifs
